@@ -403,7 +403,7 @@ def on_user_info(server, info):
         data["temp_file_list"] = temp_file_list
         maplist["map_list"].append(data)
         update_config(config_path + "maplist.json", maplist)
-    elif command[1] == 'list':
+    elif command[1] == 'list':  
         page = 1
         try:
             if length > 2:
