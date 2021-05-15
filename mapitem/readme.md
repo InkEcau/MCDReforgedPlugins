@@ -10,7 +10,9 @@
 ## 安装
 
 1.安装pip依赖`pip install -r requirements.txt`(国内速度较慢，可以试试添加`-i https://pypi.tuna.tsinghua.edu.cn/simple`)
+
 2.将`mapitem.py`文件移动到`./plugins/`文件夹
+
 3.如果服务器正在运行，可以在游戏内执行`!!MCDR r plugin`或重启服务端
 
 ## 指令
@@ -24,18 +26,27 @@
 ### 配置文件
 
 *插件初次加载后自动生成*
+
 `./config/mapitem/`文件夹中:
+
 `mapitem.json`:插件配置文件，详情请见[可用配置项](#可用配置项)
+
 `maplist.json`:地图画列表，**如果您不知道您在做什么，请不要修改**
+
 `temp/`:临时文件路径
 
 ### 可用配置项
 
 `permission`:[MCDR权限等级](https://mcdreforged.readthedocs.io/zh_CN/latest/permission.html)，调用指令的最低等级，默认为`3`
+
 `data_path`:`map_<#>.dat`文件路径，默认为`./server/world/data/`
+
 `save_temp`:是否保存临时文件，默认为`true`
+
 `temp_filepath`:临时文件路径，默认为`./config/mapitem/temp/`
+
 `item_per_page`:游戏内执行`!!mapitem list`时，单页最大信息数量，默认为`8`
+
 
 ## 预期更新~~（咕咕咕）~~
 
