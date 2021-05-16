@@ -1,7 +1,7 @@
 # Mapitem插件
 ---
 
-一个[MCDReforged](https://github.com/Fallen-Breath/MCDReforged)(version>=1.0.0)插件
+一个[MCDReforged](https://github.com/Fallen-Breath/MCDReforged)(version>=1.0.0)插件，可用于生成地图画
 
 **请确保`./config/mapitem/maplist.json`不会丢失**
 
